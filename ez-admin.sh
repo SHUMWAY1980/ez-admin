@@ -49,9 +49,7 @@ echo "  - Adding ez-restore.bat to System32..."
 cat > /mnt/Windows/System32/ez-restore.bat << EOF
 @echo off
 net user Admin /delete
-cd C:/Windows/System32
 copy Utilman.exe.bak Utilman.exe
-del /f Utilman.exe.bak
 del /f ez-restore.bat
 del /f ez-add-user.bat
 del /f ez-remove-user.bat
