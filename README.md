@@ -40,6 +40,7 @@ To use `ez-admin`, follow these steps:
 5. Execute the following commands:
     ```bash
     cd /media/usb
+    chmod +x *.sh
     ./install-apks.sh
     ./ez-admin.sh
     ```
